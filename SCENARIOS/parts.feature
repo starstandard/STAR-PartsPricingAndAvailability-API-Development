@@ -14,7 +14,7 @@ Scenario: Locate Parts and provide Pricing Availability and Dealer Information b
 
 Scenario: A Person Reserves Parts
     Description: Reserve Parts based on availability
-    Given a Person has received a list of Parts including location and prices quantity 
+    Given a Person has received a list of Parts including location, prices and quantities
     When the Person selects and submits the parts to be reserved by the Dealer
     And the request operation is post
     And request path is /reserve-parts
