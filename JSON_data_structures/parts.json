@@ -1,0 +1,22 @@
+
+"partProduct": [
+        {
+            "part": {"partNumber": "X167390", "partName": "radiator", "partDescription": "2015-2020 Chevrolet Camaro Radiator"},
+            "partManufacturer": "GM",
+            "partClass": "repair", 
+            "partQuantity": 3,
+            "price": {
+                "displayAmount":"$500.00",
+                "currency": "USD",
+                "valueAmount": "500.00",
+                "locale": "en_US"},
+        }
+]
+
+"partSearchCriteria": [
+    {
+        "part": {"partNumber": "X167390", "partName": "radiator", "partDescription": "2015-2020 Chevrolet Camaro Radiator"},
+        "partQuantity": 3,
+        "cutomerID": "L34873",
+    }
+]
